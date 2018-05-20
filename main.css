@@ -36,6 +36,7 @@ body{
 }
 
 .name{
+	transition: .2s;
 	position: absolute;
 	left: 25%;
 	top: 5%;
@@ -44,6 +45,7 @@ body{
 }
 
 .name:hover{
+	transition: .2s;
 	background-color: white;
 }
 
@@ -66,14 +68,18 @@ body{
 }
 
 .sidebar-list a{
+	transition: .2s;
 	text-decoration: none;
 	color: #d0e8fb;
 }
 
 .sidebar-list a:hover{
+	transition: .2s;
 	color: white;
 }
 
-.sidebar-list a:active{
+.links-list a:active{
+	transition: .1s;
 	color: white;
+	font-size: 98%;
 }
