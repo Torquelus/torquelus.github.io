@@ -96,7 +96,11 @@ body{
 	position: absolute;
 	width: 50%;
 	left: 25%;
-	top: 25%;
+	top: 30%;
+}
+
+.sidebar-list li{
+	margin: 15%;
 }
 
 .sidebar-list ul{
