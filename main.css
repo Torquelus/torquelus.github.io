@@ -1,0 +1,53 @@
+body{
+	font-family: 'Arvo', serif;
+	background-color: white;
+	color:#062f4f;
+}
+
+.main{
+	position: absolute;
+	width: 80%;
+	top: 0%;
+	left: 20%;
+	text-align: center;
+}
+
+.sidebar{
+	position: fixed;
+	width: 20%;
+	height: 100%;
+	z-index: 2;
+	top: 0%;
+	left: 0%;
+	text-align: center;
+	background-color: #062f4f;
+	color: #d0e8fb;
+}
+
+.contact{
+	position: absolute;
+	height: 20%;
+	width: 100%;
+	top: 100%;
+	margin-top: -20%;
+	text-align: center;
+}
+
+.sidebar-list ul{
+	font-size: 32px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.sidebar-list a{
+	text-decoration: none;
+	color: #d0e8fb;
+}
+
+.sidebar-list a:hover{
+	color: white;
+}
+
+.sidebar-list a:active{
+	color: white;
+}
