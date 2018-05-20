@@ -56,7 +56,19 @@ body{
 	top: 5%;
 	background-color: #d0e8fb;
 	width: 50%;
-	padding-bottom: 0%;
+	padding-top: 50%;
+}
+
+/* Text inside Name Div */
+.name h1{
+	position: absolute;
+	margin-top: 0%;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0%;
+	font-size: 2.5vw;
+	color: #062f4f;
 }
 
 /* Name on Hover*/
@@ -82,13 +94,8 @@ body{
 	top: 25%;
 }
 
-.sidebar-list h1{
-	font-size: 300%;
-	color: #062f4f;
-}
-
 .sidebar-list ul{
-	font-size: 150%;
+	font-size: 1.25vw;
 	padding: 0;
 	list-style-type: none;
 }
