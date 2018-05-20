@@ -48,6 +48,11 @@ body{
 	text-align: center;
 }
 
+/* Text in Contact Div */
+.contact h3{
+	font-size: 1vw;
+}
+
 /* The Name Logo */
 .name{
 	transition: .2s;
