@@ -44,10 +44,20 @@ body{
 	top: 5%;
 	background-color: #d0e8fb;
 	width: 50%;
+	height: 18.8%;
 }
 
 .name:hover{
 	transition: .2s;
+	background-color: white;
+}
+
+.name:active{
+	transition: .1s;
+	left: 25.25%;
+	top: 5.1%;
+	width: 49.5%;
+	height: 18.6%;
 	background-color: white;
 }
 
