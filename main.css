@@ -82,15 +82,6 @@ body{
 	background-color: white;
 }
 
-/* Name when Pressed */
-.name:active{
-	transition: .1s;
-	left: 25.25%;
-	top: 5.1%;
-	width: 49.5%;
-	height: 18.6%;
-	background-color: white;
-}
  /* List in Sidebar */
 .links-list{
 	position: absolute;
