@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Arvo);
+@import url(http://fonts.googleapis.com/css?family=Arvo);
 
 body{
 	font-family: 'Arvo', serif;
@@ -22,7 +22,7 @@ body{
 	top: 0%;
 	left: 0%;
 	text-align: center;
-	background-color: #062f4f;
+	background-image: url("Images/trianglify.png");
 	color: #d0e8fb;
 }
 
@@ -35,8 +35,28 @@ body{
 	text-align: center;
 }
 
+.name{
+	position: absolute;
+	left: 25%;
+	top: 5%;
+	background-color: #d0e8fb;
+	width: 50%;
+}
+
+.links-list{
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 25%;
+}
+
+.sidebar-list h1{
+	font-size: 300%;
+	color: #062f4f;
+}
+
 .sidebar-list ul{
-	font-size: 32px;
+	font-size: 150%;
 	padding: 0;
 	list-style-type: none;
 }
