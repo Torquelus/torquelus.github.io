@@ -43,6 +43,10 @@ body{
 	width: 50%;
 }
 
+.name:hover{
+	background-color: white;
+}
+
 .links-list{
 	position: absolute;
 	width: 50%;
